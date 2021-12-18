@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49925874-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-49925874-3');
+  </script>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Git</title>
+
+  <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+
+  <link rel="stylesheet" media="screen" href="/assets/application-60bcb3f1b8b77524c36b57abdcdbd415ab039cb4cb29f834db2b3bc0219f0033.css" />
+  <script src="/assets/modernize-b3ebe0c31c24f230dc62179d3e1030d2e57a53b1668d9382c0a27dbd44a94beb.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body id="downloads">
+
+  <div class="inner">
+    <header>
+
+  <a href="/"><img src="/images/logo@2x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline"></span>
+  <script type="text/javascript">
+    var taglines = ["fast-version-control","everything-is-local","distributed-even-if-your-workflow-isnt","local-branching-on-the-cheap","distributed-is-the-new-centralized"];
+    var tagline = taglines[Math.floor(Math.random() * taglines.length)];
+    document.getElementById('tagline').innerHTML = '--' + tagline;
+  </script>
+  <form id="search" action="/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+
+</header>
+
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <button class="sidebar-btn"></button>
+<aside class="sidebar" id="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a href="/about">About</a>
+        <ul class="">
+          <li>
+            <a href="/about">Branching and Merging</a>
+          </li>
+          <li>
+            <a href="/about/small-and-fast">Small and Fast</a>
+          </li>
+          <li>
+            <a href="/about/distributed">Distributed</a>
+          </li>
+          <li>
+            <a href="/about/info-assurance">Data Assurance</a>
+          </li>
+          <li>
+            <a href="/about/staging-area">Staging Area</a>
+          </li>
+          <li>
+            <a href="/about/free-and-open-source">Free and Open Source</a>
+          </li>
+          <li>
+            <a href="/about/trademark">Trademark</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/doc">Documentation</a>
+        <ul class="">
+          <li>
+            <a href="/docs">Reference</a>
+          </li>
+          <li>
+            <a href="/book">Book</a>
+          </li>
+          <li>
+            <a href="/videos">Videos</a>
+          </li>
+          <li>
+            <a href="/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="active" href="/downloads">Downloads</a>
+        <ul class="expanded">
+          <li>
+            <a href="/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/community">Community</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+
+        <div id="content">
+          
+<div id="main">
+  <h1>Download for Linux and Unix</h1>
+  <p>It is easiest to install Git on Linux using the preferred package
+  manager of your Linux distribution. If you prefer to build from
+  source, you can find tarballs
+  <a href="https://www.kernel.org/pub/software/scm/git/">on kernel.org</a>.
+  The latest version is
+  <a href="https://www.kernel.org/pub/software/scm/git/git-2.34.1.tar.gz">2.34.1</a>.
+
+  <h3>Debian/Ubuntu</h3>
+  <p>For the latest stable version for your release of Debian/Ubuntu</p>
+  <code># apt-get install git</code>
+  <p>For Ubuntu, this PPA provides the latest stable upstream Git version</p>
+  <code># add-apt-repository ppa:git-core/ppa</code>
+  <code># apt update; apt install git</code>
+  
+  <h3>Fedora</h3>
+  <code># yum install git</code> (up to Fedora 21)<br>
+  <code># dnf install git</code> (Fedora 22 and later)
+
+  <h3>Gentoo</h3>
+  <code># emerge --ask --verbose dev-vcs/git</code>
+
+  <h3>Arch Linux</h3>
+  <code># pacman -S git</code>
+
+  <h3>openSUSE</h3>
+  <code># zypper install git</code>
+
+  <h3>Mageia</h3>
+  <code># urpmi git</code>
+
+  <h3>Nix/NixOS</h3>
+  <code># nix-env -i git</code>
+
+  <h3>FreeBSD</h3>
+  <code># pkg install git</code>
+  
+  <h3>Solaris 9/10/11 (<a href="https://www.opencsw.org">OpenCSW</a>)</h3>
+  <code># pkgutil -i git</code>
+
+  <h3>Solaris 11 Express</h3>
+  <code># pkg install developer/versioning/git</code>
+  
+  <h3>OpenBSD</h3>
+  <code># pkg_add git</code>
+
+  <h3>Alpine</h3>
+  <code>$ apk add git</code>
+  
+  <h3>Red Hat Enterprise Linux, Oracle Linux, CentOS, Scientific Linux, et al.</h3>
+  <p>RHEL and derivatives typically ship older versions of git. You can <a href="https://www.kernel.org/pub/software/scm/git/">download a tarball</a> and build from source, or use a 3rd-party repository such as <a href="https://ius.io/">the IUS Community Project</a> to obtain a more recent version of git.</p>
+
+  <h3>Slitaz</h3>
+  <code>$ tazpkg get-install git</code>
+
+</div>
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    <a href="/site">About this site</a><br>
+    Patches, suggestions, and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+<a href="#top" class="no-js scrollToTop" id="scrollToTop" data-label="Scroll to top">
+  <img src="/images/icons/chevron-up@2x.png" width="20" height="20" alt="scroll-to-top"/>
+</a>
+<script src="/assets/application-e12a0e837db60213b777cd7a706e0741beed474d7e5b94a641979fc87ce0d2cc.js"></script>
+
+    </div>
+
+</body>
+</html>
