@@ -31,7 +31,7 @@ int main(int argc,char *argv[]){
         curl_easy_cleanup(curl);
     }
 
-    archivo.open("/home/fjromeero/Documentos/GitHub/MC-UGR-/http.txt");
+    archivo.open("../MC-UGR-/http.txt");
     if(!archivo.is_open()){
         cout<<"NO SE ABRE EL ARCHIVO";
     }
