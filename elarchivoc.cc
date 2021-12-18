@@ -14,7 +14,7 @@ int main(){
         res = curl_easy_perform(curl);
 
         if(res!= CURLE_OK)
-            fprint(stderr,"curl_easy_perform() returned %s\n",curl_easy_strerror(res));
+            fprintf(stderr,"curl_easy_perform() returned %s\n",curl_easy_strerror(res));
 
         curl_easy_cleanup(curl);
     }
